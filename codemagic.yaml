@@ -11,7 +11,7 @@ workflows:
           include: true
           source: true
     environment:
-      flutter: latest
+      flutter: 3.27.1
       xcode: latest
     scripts:
       - name: Install dependencies
