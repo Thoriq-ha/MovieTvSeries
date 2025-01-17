@@ -11,7 +11,6 @@
   - [Usage](#usage)
   - [Technologies Used](#technologies-used)
   - [Contributing](#contributing)
-  - [License](#license)
 
 ---
 
@@ -86,8 +85,3 @@ Contributions are welcome! Follow these steps to contribute:
    git push origin feature-name
    ```
 5. Open a pull request.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
