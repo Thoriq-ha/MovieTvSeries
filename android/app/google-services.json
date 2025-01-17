@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1026188714003",
+    "project_id": "movietvseries-fa243",
+    "storage_bucket": "movietvseries-fa243.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026188714003:android:ba8dbe1f92a03519761fe6",
+        "android_client_info": {
+          "package_name": "com.example.movietvseries"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlyjIzVyR81oGhMTgJiMNhYXF-MQOd7-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
