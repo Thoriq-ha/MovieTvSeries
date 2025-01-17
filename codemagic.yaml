@@ -1,6 +1,6 @@
 # Codemagic configuration file for Flutter project
 workflows:
-  build-app-red-camera-roll:
+  build-movie-tv-series:
     name: Build Movie TV Series
     triggering:
       events:
@@ -11,7 +11,7 @@ workflows:
           include: true
           source: true
     environment:
-      flutter: 3.24.3
+      flutter: latest
       xcode: latest
     scripts:
       - name: Install dependencies
