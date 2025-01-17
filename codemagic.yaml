@@ -14,7 +14,7 @@ workflows:
       flutter: 3.27.1
       xcode: latest
       groups:
-        - .env
+        - prod
     scripts:
       - name: Create .env file
         script: |
