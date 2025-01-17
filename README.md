@@ -1,4 +1,4 @@
-[![Codemagic build status](https://api.codemagic.io/apps/678a11179ba1e83bccee87c8/build-movie-tv-series/status_badge.svg)](https://codemagic.io/app/678a11179ba1e83bccee87c8/build-movie-tv-series/latest_build)
+[![Codemagic build status](https://api.codemagic.io/apps/678a103b94bef0cca0addf06/build-movie-tv-series/status_badge.svg)](https://codemagic.io/app/678a103b94bef0cca0addf06/build-movie-tv-series/latest_build)
 
 # MovieTVSeries - Flutter Developer Expert Project
 
