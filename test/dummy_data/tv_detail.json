@@ -1,0 +1,105 @@
+{
+  "adult": false,
+  "backdrop_path": "/path.jpg",
+  "created_by": [],
+  "episode_run_time": [
+    1,
+    2,
+    3
+  ],
+  "first_air_date": "1985-12-30",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "",
+  "id": 1,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "1988-05-23",
+  "last_episode_to_air": {
+    "id": 1130596,
+    "name": "False Profits",
+    "overview": "",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "air_date": "1988-05-23",
+    "episode_number": 6,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 30,
+    "season_number": 3,
+    "show_id": 10,
+    "still_path": null
+  },
+  "name": "Name",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 9,
+      "logo_path": "/path.jpg",
+      "name": "Newtwork",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 18,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "Us"
+  ],
+  "original_language": "en",
+  "original_name": "Original Name",
+  "overview": "Overview",
+  "popularity": 1.0,
+  "poster_path": "/path.jpg",
+  "production_companies": [],
+  "production_countries": [],
+  "seasons": [
+    {
+      "air_date": "1985-12-30",
+      "episode_count": 6,
+      "id": 2328143,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/bisvcIK9xIE0whLvPb2hQpfbfw9.jpg",
+      "season_number": 1,
+      "vote_average": 0.0
+    },
+    {
+      "air_date": "1987-02-26",
+      "episode_count": 6,
+      "id": 2328144,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 2,
+      "vote_average": 0.0
+    },
+    {
+      "air_date": "1988-04-11",
+      "episode_count": 6,
+      "id": 2328142,
+      "name": "Season 3",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 3,
+      "vote_average": 0.0
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 1.8,
+  "vote_count": 65
+}

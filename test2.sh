@@ -1,0 +1,1 @@
+perl "C:\ProgramData\chocolatey\lib\lcov\tools\bin\genhtml" ".\coverage\lcov.info" -o ".\coverage\html"
