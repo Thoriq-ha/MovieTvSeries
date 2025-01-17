@@ -13,7 +13,16 @@ workflows:
     environment:
       flutter: 3.27.1
       xcode: latest
+      groups:
+        - .env
     scripts:
+      - name: Create .env file
+        script: |
+          echo "API_KEY=$API_KEY" > .env
+          echo "APP_ENV=$APP_ENV" >> .env
+          echo ".env file created with the following content:"
+          cat .env
+
       - name: Install dependencies
         script: |
           flutter pub get
