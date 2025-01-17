@@ -2,11 +2,13 @@
 
 # MovieTVSeries - Flutter Developer Expert Project
 
+
 ## Table of Contents
 - [MovieTVSeries - Flutter Developer Expert Project](#movietvseries---flutter-developer-expert-project)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Features](#features)
+  - [Screenshots](#screenshots)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Technologies Used](#technologies-used)
@@ -16,12 +18,25 @@
 
 ## About
 MovieTVSeries is a Flutter project developed as part of the **Become a Flutter Developer Expert** program at Dicoding. This application serves as a platform for managing and exploring movies and TV shows, providing users with detailed information and watchlist features.
-
+  
 ## Features
 - Browse popular movies and TV shows
 - View detailed information for each title
 - Search for movies and TV shows
 - Add and manage your watchlist
+
+## Screenshots
+Code Coverage Result
+<div>
+  <img src="https://github.com/Thoriq-ha/movietvseries/blob/main/assets/codecoverage_97persen.JPG?raw=true" alt="Dark theme" width="600">
+</div>
+<br />
+
+Crashlytic Result
+<div>
+  <img src="https://github.com/Thoriq-ha/movietvseries/blob/main/assets/crashlytics.JPG?raw=true" alt="Dark theme" width="600">
+</div>
+<br />
 
 ## Installation
 
