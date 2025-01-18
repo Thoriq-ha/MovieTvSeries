@@ -5,10 +5,29 @@ import 'package:movietvseries/presentation/bloc/movie/search_movie_bloc.dart';
 import 'package:movietvseries/presentation/widgets/movie_card_list.dart';
 import 'package:flutter/material.dart';
 
-class SearchMoviePage extends StatelessWidget {
+class SearchMoviePage extends StatefulWidget {
   static const routeName = '/search';
 
   const SearchMoviePage({super.key});
+
+  @override
+  State<SearchMoviePage> createState() => _SearchMoviePageState();
+}
+
+class _SearchMoviePageState extends State<SearchMoviePage> {
+  late TextEditingController queryC;
+
+  @override
+  void initState() {
+    queryC = TextEditingController();
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    queryC.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +49,7 @@ class SearchMoviePage extends StatelessWidget {
                 prefixIcon: Icon(Icons.search),
                 border: OutlineInputBorder(),
               ),
+              controller: queryC,
               textInputAction: TextInputAction.search,
             ),
             SizedBox(height: 16),
@@ -38,7 +58,8 @@ class SearchMoviePage extends StatelessWidget {
               style: titleLarge,
             ),
             BlocBuilder<SearchMovieBloc, SearchMovieState>(
-                bloc: locator<SearchMovieBloc>()..add(FetchSearchMovie()),
+                bloc: locator<SearchMovieBloc>()
+                  ..add(FetchSearchMovie(query: queryC.text)),
                 builder: (context, state) {
                   if (state is SearchMovieIsLoading) {
                     return const Center(

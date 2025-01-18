@@ -5,10 +5,29 @@ import 'package:movietvseries/presentation/bloc/tv/search_tv_bloc.dart';
 import 'package:movietvseries/presentation/widgets/tv_card_list.dart';
 import 'package:flutter/material.dart';
 
-class SearchTvPage extends StatelessWidget {
+class SearchTvPage extends StatefulWidget {
   static const routeName = '/search_tv';
 
   const SearchTvPage({super.key});
+
+  @override
+  State<SearchTvPage> createState() => _SearchTvPageState();
+}
+
+class _SearchTvPageState extends State<SearchTvPage> {
+  late TextEditingController queryC;
+
+  @override
+  void initState() {
+    queryC = TextEditingController();
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    queryC.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +49,7 @@ class SearchTvPage extends StatelessWidget {
                 prefixIcon: Icon(Icons.search),
                 border: OutlineInputBorder(),
               ),
+              controller: queryC,
               textInputAction: TextInputAction.search,
             ),
             SizedBox(height: 16),
@@ -38,7 +58,8 @@ class SearchTvPage extends StatelessWidget {
               style: titleLarge,
             ),
             BlocBuilder<SearchTVBloc, SearchTVState>(
-                bloc: locator<SearchTVBloc>()..add(FetchSearchTV()),
+                bloc: locator<SearchTVBloc>()
+                  ..add(FetchSearchTV(query: queryC.text)),
                 builder: (context, state) {
                   if (state is SearchTVIsLoading) {
                     return const Center(

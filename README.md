@@ -32,9 +32,21 @@ Code Coverage Result
 </div>
 <br />
 
+Firebase Analytic Result
+<div>
+  <img src="https://github.com/Thoriq-ha/movietvseries/blob/main/assets/firebase_analytic.JPG?raw=true" alt="Dark theme" width="600">
+</div>
+<br />
+
 Crashlytic Result
 <div>
   <img src="https://github.com/Thoriq-ha/movietvseries/blob/main/assets/crashlytics.JPG?raw=true" alt="Dark theme" width="600">
+</div>
+<br />
+
+CI/CD Result
+<div>
+  <img src="https://github.com/Thoriq-ha/movietvseries/blob/main/assets/ci_cd.JPG?raw=true" alt="Dark theme" width="600">
 </div>
 <br />
 
